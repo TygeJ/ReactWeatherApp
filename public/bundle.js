@@ -24995,24 +24995,44 @@
 
 /***/ }),
 /* 224 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	// var React = require('react');
-	// var {Link, IndexLink} = require('react-router');
-	//
-	// var Nav = () => {
-	//     return (
-	//       <div>
-	//         <h2>Nav Component</h2>
-	//         <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
-	//         <Link to="/about" activeClassName="active"  activeStyle={{fontWeight: 'bold'}}>About</Link>
-	//         <Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
-	//       </div>
-	//     );
-	//   };
-	//
-	// module.exports = Nav;
-	"use strict";
+	'use strict';
+
+	var React = __webpack_require__(7);
+
+	var _require = __webpack_require__(165),
+	    Link = _require.Link,
+	    IndexLink = _require.IndexLink;
+
+	var Nav = function Nav() {
+	  return React.createElement(
+	    'div',
+	    null,
+	    React.createElement(
+	      'h2',
+	      null,
+	      'Nav Component'
+	    ),
+	    React.createElement(
+	      IndexLink,
+	      { to: '/', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
+	      'Get Weather'
+	    ),
+	    React.createElement(
+	      Link,
+	      { to: '/about', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
+	      'About'
+	    ),
+	    React.createElement(
+	      Link,
+	      { to: '/examples', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
+	      'Examples'
+	    )
+	  );
+	};
+
+	module.exports = Nav;
 
 /***/ }),
 /* 225 */
