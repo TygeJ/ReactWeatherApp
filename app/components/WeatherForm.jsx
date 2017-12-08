@@ -16,7 +16,7 @@ var WeatherForm = React.createClass({
         <div>
           <form onSubmit={this.onFormSubmit}>
             <input type="text" ref="location"/>
-            <button>Show me Weather</button>
+            <button>Show me Weather mike</button>
           </form>
         </div>
     );
