@@ -1,6 +1,6 @@
 var axios = require('axios'); // axios = promises, making http req
 
-// const OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?appid=80a099d3ea5cd2ed2c42c9ddc1632664&units=imperial';
+const OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?appid=80a099d3ea5cd2ed2c42c9ddc1632664&units=imperial';
 // http://openweathermap.org/
 // custom api
 // unit specs from kelvin
