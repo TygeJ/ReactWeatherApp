@@ -24985,7 +24985,7 @@
 	    React.createElement(
 	      'h2',
 	      null,
-	      'Main Component'
+	      'tyge'
 	    ),
 	    props.children
 	  );
@@ -25009,11 +25009,6 @@
 	  return React.createElement(
 	    'div',
 	    null,
-	    React.createElement(
-	      'h2',
-	      null,
-	      'Nav Component'
-	    ),
 	    React.createElement(
 	      IndexLink,
 	      { to: '/', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
@@ -25137,7 +25132,7 @@
 	        React.createElement(
 	          'button',
 	          null,
-	          'Get Weather'
+	          'Show me Weather mike'
 	        )
 	      )
 	    );
@@ -25161,7 +25156,7 @@
 	  return React.createElement(
 	    'h3',
 	    null,
-	    ' It is ',
+	    ' The temperature is ',
 	    temp,
 	    '\xB0 Fahrenheit in ',
 	    location,
@@ -26744,7 +26739,7 @@
 	  return React.createElement(
 	    'h3',
 	    null,
-	    'test!'
+	    'tyge'
 	  );
 	};
 	//
@@ -26776,7 +26771,7 @@
 	  return React.createElement(
 	    'h3',
 	    null,
-	    'Examples Component'
+	    'test'
 	  );
 	};
 

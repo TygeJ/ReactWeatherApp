@@ -1,7 +1,7 @@
-var React = require('react');
-var WeatherForm = require('WeatherForm');
-var WeatherMessage = require('WeatherMessage');
-var openweathermap = require('openweathermap');
+import React from 'react';
+import WeatherForm from './WeatherForm';
+import WeatherMessage from './WeatherMessage';
+import openweathermap from '../api/openweathermap';
 
 var Weather = React.createClass({
   getInitialState: function () {
@@ -12,7 +12,6 @@ var Weather = React.createClass({
   handleSearch: function (location) {
     var that = this;
 
-    debugger;
     this.setState({isLoading: true});
 
     openweathermap.getTemp(location).then(function (temp) {

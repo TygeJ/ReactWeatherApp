@@ -1,11 +1,11 @@
-var React = require('react');
-var Nav = require('Nav');
+import React from 'react';
+import Nav from './Nav';
 
 var Main = (props) => {
   return (
     <div>
       <Nav/>
-      <h2>tyge</h2>
+      <h2>main test</h2>
       {props.children}
     </div>
     );

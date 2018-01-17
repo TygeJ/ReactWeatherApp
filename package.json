@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Server.js"
+    "start": "node Server.js",
+    "dev": "webpack-dev-server --port=3000"
   },
   "author": "Andrew Mead",
   "license": "MIT",
@@ -35,6 +36,7 @@
     "jquery": "^2.2.1",
     "script-loader": "^0.6.1",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.13"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }
