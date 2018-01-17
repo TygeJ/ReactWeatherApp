@@ -2,7 +2,7 @@ import React from 'react';
 
 var About = (props) => {
   return (
-    <h3>tyge</h3>
+    <h3>tyge testing</h3>
   )
 };
 //
