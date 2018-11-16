@@ -20,6 +20,6 @@ module.exports = {
       }
     }, function (res) {
        throw new Error(res.data.message);
-    });
+    }); 
   }
 }
