@@ -12,7 +12,7 @@
     "start": "node Server.js",
     "dev": "webpack-dev-server --port=3000"
   },
-  "author": "Andrew Mead",
+  "author": "Tyge",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
