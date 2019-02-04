@@ -17,5 +17,6 @@ ReactDOM.render(
       <IndexRoute component={Weather}/>
     </Route>
   </Router>,
+  
   document.getElementById('app')
 );
